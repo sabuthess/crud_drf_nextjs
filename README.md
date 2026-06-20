@@ -34,9 +34,9 @@ activate virtual environment
 ```bash
 .\.venv\Scripts\activate
 ```
-install DRF and run
+install dependecies and run
 ``` bash
-pip install djangorestframework
+pip install -r requirements.txt
 python manage.py runserver
 ```
 
