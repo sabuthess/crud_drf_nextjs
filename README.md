@@ -26,7 +26,7 @@ pnpm install
 pnpm dev 
 ```
  
-5. In anhothe terminal config Drf 
+3. In anhothe terminal config Drf 
 ```bash
 python -m venv .venv
 ```
@@ -40,8 +40,7 @@ pip install djangorestframework
 python manage.py runserver
 ```
 
-
-. Set environment variables:
+4. Set environment variables:
 ```env
 NEXT_PUBLIC_BASE_API_URL=http://localhost:8000
 ```
