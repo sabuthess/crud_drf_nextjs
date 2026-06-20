@@ -15,10 +15,33 @@ It allows users to create tasks, query information, update data, and delete reco
 
 ## Installation
 
+1. Clone the repository: 
 ```bash
 https://github.com/sabuthess/crud_drf_nextjs.git
 ```
 
+2. Config first Next.js and run
 ```bash
-pnpm install 
+pnpm install
+pnpm dev 
+```
+ 
+5. In anhothe terminal config Drf 
+```bash
+python -m venv .venv
+```
+activate virtual environment
+```bash
+.\.venv\Scripts\activate
+```
+install DRF and run
+``` bash
+pip install djangorestframework
+python manage.py runserver
+```
+
+
+. Set environment variables:
+```env
+NEXT_PUBLIC_BASE_API_URL=http://localhost:8000
 ```
